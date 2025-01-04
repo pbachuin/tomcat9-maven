@@ -23,16 +23,6 @@
         <artifactId>jetty-maven-plugin</artifactId>
       </plugin>
       
-      <!-- Maven WAR Plugin for packaging the web app -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.1</version>
-                <configuration>
-                    <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                    <failOnMissingWebXml>false</failOnMissingWebXml> <!-- For Servlet 3.0 or higher -->
-                </configuration>
-            </plugin>
     </plugins>
   </build>
   
@@ -44,14 +34,6 @@
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.1</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <!-- Expression Language (EL) API -->
-        <dependency>
-            <groupId>javax.el</groupId>
-            <artifactId>javax.el-api</artifactId>
-            <version>3.0.0</version>
             <scope>provided</scope>
         </dependency>
 
