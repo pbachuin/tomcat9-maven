@@ -1,16 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
+  <parent>
     <groupId>com.example.tomcat9-maven</groupId>
     <artifactId>tomcat9-maven</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-	<description>Sample Maven project for a working and deployable site</description>
-  <url>http://www.example.com</url>
+    <relativePath>../pom.xml</relativePath>
+    </parent>
+    
+    <artifactId>webapp</artifactId>
+    <packaging>war</packaging>
+    <name>Webapp</name>
+	<description>Webapp.</description>
+  
+  <build>
+    <finalName>${project.artifactId}</finalName>
 
+    <plugins>
+      <plugin>
+        <groupId>org.mortbay.jetty</groupId>
+        <artifactId>jetty-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+  
 	<properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
