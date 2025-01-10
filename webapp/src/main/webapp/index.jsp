@@ -1,8 +1,9 @@
 Hello, World!
 <<<<<<< HEAD
 Welcome!!!
-Webapp Deployed on Docker using Ansible!
+Webapp Deployed on Docker using Ansible playbooks!
 =======
 Welcome! 
 Webapp Deployed on Docker using Ansible playbooks
->>>>>>> 2adc039 (updated index)
+
+>>>>>>> df1339e (new update)
