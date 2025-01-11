@@ -2,13 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simple JSP Example</title>
+    <title> Simple JSP Example ! </title>
 </head>
 <body>
 
     <h1>Welcome</h1>
     <br>
-    <h1>Our school is</h1>
+    <h1>To Our school! </h1>
 
 </body>
 </html>
