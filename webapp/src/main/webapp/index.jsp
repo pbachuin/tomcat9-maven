@@ -1,3 +1,17 @@
-Hello, World, Welcome!!!
-Webapp Deployed on Docker using Ansible playbooks!
-Now Webapp deployed on K8s
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple JSP Example</title>
+</head>
+<body>
+
+    <h1>Welcome</h1>
+    <br>
+    <h1>Our school is</h1>
+
+</body>
+</html>
+
+
+
