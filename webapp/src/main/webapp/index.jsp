@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Simple JSP Example ! </title>
+    <title>Simple JSP Example !</title>
 </head>
 <body>
 
