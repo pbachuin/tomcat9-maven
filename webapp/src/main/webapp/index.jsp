@@ -9,9 +9,9 @@
   <h1>========================== </h1>
   <h1> ========================= </h1>
    <br>
-   <h1>...This is webapp deployed on docker system !!! .....</h1>
+   <h1>...This is webapp deployed on kubernetes system !!! .....</h1>
    <br>
-  <h1>.......... Using Ansible, Docker and Jenkins-Maven.....</h1>
+  <h1>.......... Using microk8s, Ansible, Docker and Jenkins-Maven.....</h1>
   <br>
   <h1>============================================= </h1>	
 
